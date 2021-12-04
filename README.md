@@ -1,3 +1,9 @@
+## Запуск
+
+В Bash-окне (консоле) выполнить команду вида:
+
+<code>php main.php 1 2 3 4 same hello world true false</code>
+
 ## Исходное тестовое задание
 
 Цель
@@ -12,13 +18,15 @@
 сторонних библиотек.
 
 Скрипт на вход должен принимать несколько значений, например:
-main.php 1 2 3 4 same hello world true false
+
+<code>main.php 1 2 3 4 same hello world true false</code>
 
 Слова true и false должны быть преобразованы в boolean типы true и false
 соответственно.
 
 В самом скрипте должен быть массив следующего вида:
-$main_array = ['vasya', 'pupkin', 'apple', 23, 41, 55, 1, 2];
+
+<code>$main_array = ['vasya', 'pupkin', 'apple', 23, 41, 55, 1, 2];</code>
 
 В main.php необходимо реализовать несколько задач:
 
